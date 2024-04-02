@@ -4,7 +4,7 @@ export default {
     {
       file: 'dist/plugin.js',
       format: 'iife',
-      name: 'capacitorWebviewPlugin',
+      name: 'capacitorCapWebviewPlugin',
       globals: {
         '@capacitor/core': 'capacitorExports',
       },

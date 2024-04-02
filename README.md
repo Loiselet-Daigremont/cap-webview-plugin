@@ -45,7 +45,7 @@ To use the "Webview Plugin" within an Angular application, follow this example w
 // Import necessary modules
 import { Component, OnInit } from '@angular/core';
 // Ensure to adjust the import path based on your plugin's location
-import { WebviewPlugin } from 'webview-plugin';
+import { CapWebviewPlugin } from 'webview-plugin';
 
 @Component({
   selector: 'app-home',
@@ -62,7 +62,7 @@ export class HomePage implements OnInit {
   // Method to display the WebView
   async showWebView() {
     try {
-      await WebviewPlugin.showWebView({ url: 'https://www.example.com' });
+      await CapWebviewPlugin.showWebView({ url: 'https://www.example.com' });
     } catch (error) {
       console.error('Error loading WebView', error);
     }
@@ -72,12 +72,12 @@ export class HomePage implements OnInit {
 ### Typescript
 For a simple TypeScript example without a specific framework like Angular, you can utilize the plugin as follows:
 
-import { WebviewPlugin } from 'path-to-your-plugin/webview-plugin';
+import { CapWebviewPlugin } from 'path-to-your-plugin/webview-plugin';
 
 // Async function to demonstrate plugin usage
 async function loadWebView() {
   try {
-    await WebviewPlugin.showWebView({ url: 'https://www.example.com' });
+    await CapWebviewPlugin.showWebView({ url: 'https://www.example.com' });
   } catch (error) {
     console.error('Error loading WebView', error);
   }

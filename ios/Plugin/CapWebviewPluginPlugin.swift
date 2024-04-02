@@ -6,9 +6,9 @@ import WebKit
  * Please read the Capacitor iOS Plugin Development Guide
  * here: https://capacitorjs.com/docs/plugins/ios
  */
-@objc(WebviewPluginPlugin)
-public class WebviewPluginPlugin: CAPPlugin {
-    private let implementation = WebviewPlugin()
+@objc(CapWebviewPluginPlugin)
+public class CapWebviewPluginPlugin: CAPPlugin {
+    private let ionic  = CapWebviewPlugin()
 
     // @objc public func echo(_ value: String) -> String {
     //     print(value)
