@@ -1,6 +1,6 @@
 {
   "name": "cap-webview-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is capacitor plugin that how a website in a webview.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
