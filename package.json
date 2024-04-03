@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dylanl-d/webview-plugin.git.git"
+    "url": "git+https://github.com/Loiselet-Daigremont/cap-webview-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/dylanl-d/webview-plugin.git/issues"
+    "url": "https://github.com/Loiselet-Daigremont/cap-webview-plugin.git/issues"
   },
   "keywords": [
     "capacitor",
